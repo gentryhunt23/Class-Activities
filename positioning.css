@@ -1,0 +1,45 @@
+
+.Box-1 {
+    text-align: center;
+    background-color: #999;
+    position: fixed;
+    width: 500px;
+    height: 250px;
+    z-index: 1;
+}
+.Box-2 {
+    position: relative;
+    background-color: gray;
+    text-align: center;
+    height: 300px;
+    width: 60%;
+    left: 20%;
+   
+}
+.Text-1 {
+    font-weight: normal;
+    padding-bottom: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+    height: 100%;
+}
+.Text-2 {
+    padding-top: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+    height: 100%;
+}
+.Box-3 {
+    position: absolute;
+    text-align: center;
+    color: white;
+    background-color:black;
+    height: 150px;
+    width: 40%;
+    bottom: 0px;
+    right: -20px;
+
+}
+
