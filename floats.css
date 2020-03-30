@@ -1,0 +1,89 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #ccc;
+}
+
+section {
+  
+  
+}
+
+#left {
+  background: #666;
+  width: 33.3%;
+  height: 100px;
+  float: left;
+  padding: 33px;
+  
+}
+
+#middle { 
+  
+  background: #888;
+  width: 33.3%;
+  height: 100px;
+  float: left;
+  padding: 33px;
+
+}
+
+#right { 
+  background-color: #666;
+  height: 100px;
+  width: 33.3%;
+  float: left;
+  padding: 33px;
+
+}
+
+#full {
+  margin-top: 140px;
+  height: 300px;
+  background: #eee;
+  text-align: right;
+
+}
+
+#division {
+  background: #6ea3da;
+  height: 60px;
+  margin-top: -100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+  text-align: right; 
+  /* I aligned the text right to get it as close to the desired location as possible but do not 
+  understand how to move the text vertically without impacting the rest of the boxes within the "full" box */
+}
+
+aside {
+  background: red;
+  position: relative;
+    top: 30px;
+/* I set the position to relative because i could not move the aside box without affecting the other boxes and texts.
+Setting this position to relative also made the aside box jump forward without me having to use the z-index property */
+  width: 300px;
+  height: 200px;
+  margin-left: 35px;
+  padding-top: 25px;
+}
+
+footer {
+  background: #ccc;
+  padding: 20px;
+  margin-top: 20px;
+}
